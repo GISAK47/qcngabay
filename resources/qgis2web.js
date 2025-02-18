@@ -12,7 +12,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([584836.485269, 1081464.374931, 597488.361867, 1088353.313920], map.getSize());
+map.getView().fit([588776.520084, 1084484.245736, 590402.922150, 1085330.618133], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -912,7 +912,7 @@ document.getElementsByClassName('gcd-gl-btn')[0].className += ' fa fa-search';
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_QuyCheNga7HauGiangChucNang_1,
+    layer: lyr_ChcNng_1,
     colName: 'TenCongTrinh',
     zoom: 10,
     collapsed: true,
