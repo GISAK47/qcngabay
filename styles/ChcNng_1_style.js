@@ -6,7 +6,7 @@ function categories_ChcNng_1(feature, value, size, resolution, labelText,
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'Đất an ninh quốc phòng':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(202,74,204,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(202,74,204,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -14,7 +14,7 @@ function categories_ChcNng_1(feature, value, size, resolution, labelText,
                     break;
 case 'Đất cây ăn quả':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(141,192,93,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(56,128,54,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(77,175,74,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -22,7 +22,7 @@ case 'Đất cây ăn quả':
                     break;
 case 'Đất cây xanh cảnh quan':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(12,239,16,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(7,130,9,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -30,7 +30,7 @@ case 'Đất cây xanh cảnh quan':
                     break;
 case 'Đất cây xanh công viên TDTT':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(147,240,123,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(153,250,18,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -38,7 +38,7 @@ case 'Đất cây xanh công viên TDTT':
                     break;
 case 'Đất cơ quan':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(144,110,95,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(144,110,95,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -46,7 +46,7 @@ case 'Đất cơ quan':
                     break;
 case 'Đất công cộng đô thị':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(234,81,94,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(234,81,94,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -54,7 +54,7 @@ case 'Đất công cộng đô thị':
                     break;
 case 'Đất công cộng đơn vị ở':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(223,65,73,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(223,65,73,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -62,7 +62,7 @@ case 'Đất công cộng đơn vị ở':
                     break;
 case 'Đất công nghiệp, tiểu thủ công nghiệp':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(132,41,165,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(132,41,165,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -70,7 +70,7 @@ case 'Đất công nghiệp, tiểu thủ công nghiệp':
                     break;
 case 'Đất đầu mối hạ tầng kỹ thuật':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(108,39,164,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(108,39,164,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -78,7 +78,7 @@ case 'Đất đầu mối hạ tầng kỹ thuật':
                     break;
 case 'Đất đơn vị ở ngoại thị':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,220,137,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,220,137,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -86,7 +86,7 @@ case 'Đất đơn vị ở ngoại thị':
                     break;
 case 'Đất đơn vị ở nội thị':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(247,183,74,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(247,201,103,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -94,7 +94,7 @@ case 'Đất đơn vị ở nội thị':
                     break;
 case 'Đất hỗn hợp':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(211,107,138,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(211,107,138,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -102,7 +102,7 @@ case 'Đất hỗn hợp':
                     break;
 case 'Đất kênh rạch':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(25,230,223,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(25,230,223,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -110,7 +110,7 @@ case 'Đất kênh rạch':
                     break;
 case 'Đất Lúa':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(246,246,68,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(255,247,22,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -118,7 +118,7 @@ case 'Đất Lúa':
                     break;
 case 'Đất nghĩa trang':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(211,221,215,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(211,221,215,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -126,7 +126,7 @@ case 'Đất nghĩa trang':
                     break;
 case 'Đất tôn giáo, di tích':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(209,80,99,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(209,80,99,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -134,7 +134,7 @@ case 'Đất tôn giáo, di tích':
                     break;
 case 'Đất trung tâm nghiên cứu, đào tạo':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(208,102,20,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(208,102,20,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -142,7 +142,7 @@ case 'Đất trung tâm nghiên cứu, đào tạo':
                     break;
 case 'Đất trung tâm y tế':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(233,31,189,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(233,31,189,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -150,7 +150,7 @@ case 'Đất trung tâm y tế':
                     break;
 case 'Đất trường THCS, Tiểu Học, Mầm Non':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(219,109,131,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(219,109,131,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -158,7 +158,7 @@ case 'Đất trường THCS, Tiểu Học, Mầm Non':
                     break;
 case 'Đất trường THPT':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(140,20,44,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(140,20,44,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -166,7 +166,7 @@ case 'Đất trường THPT':
                     break;
 default:
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.758)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(90,107,204,0.758)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.607)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(90,107,204,0.607)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

@@ -1,12 +1,12 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:5897").setExtent([588019.812956, 1087361.746825, 589674.291702, 1088222.730202]);
+//ol.proj.get("EPSG:5897").setExtent([584865.004209, 1082232.913839, 598100.834179, 1089120.780857]);
 var wms_layers = [];
 
 
         var lyr_GoogleSatellite_0 = new ol.layer.Tile({
             'title': 'Google Satellite',
             'type':'base',
-            'opacity': 0.605000,
+            'opacity': 0.556000,
             
             
             source: new ol.source.XYZ({
@@ -64,20 +64,20 @@ var lyr_RanhThnhPhNgBy_2 = new ol.layer.Vector({
                 interactive: false,
                 title: '<img src="styles/legend/RanhThnhPhNgBy_2.png" /> Ranh Thành Phố Ngã Bảy'
             });
-var format_RanhHnhChnh_3 = new ol.format.GeoJSON();
-var features_RanhHnhChnh_3 = format_RanhHnhChnh_3.readFeatures(json_RanhHnhChnh_3, 
+var format_RanhPhngX_3 = new ol.format.GeoJSON();
+var features_RanhPhngX_3 = format_RanhPhngX_3.readFeatures(json_RanhPhngX_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5897'});
-var jsonSource_RanhHnhChnh_3 = new ol.source.Vector({
+var jsonSource_RanhPhngX_3 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RanhHnhChnh_3.addFeatures(features_RanhHnhChnh_3);
-var lyr_RanhHnhChnh_3 = new ol.layer.Vector({
+jsonSource_RanhPhngX_3.addFeatures(features_RanhPhngX_3);
+var lyr_RanhPhngX_3 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RanhHnhChnh_3, 
-                style: style_RanhHnhChnh_3,
-                popuplayertitle: 'Ranh Hành Chính',
+                source:jsonSource_RanhPhngX_3, 
+                style: style_RanhPhngX_3,
+                popuplayertitle: 'Ranh Phường Xã',
                 interactive: true,
-                title: '<img src="styles/legend/RanhHnhChnh_3.png" /> Ranh Hành Chính'
+                title: '<img src="styles/legend/RanhPhngX_3.png" /> Ranh Phường Xã'
             });
 var format_RanhDn_4 = new ol.format.GeoJSON();
 var features_RanhDn_4 = format_RanhDn_4.readFeatures(json_RanhDn_4, 
@@ -92,41 +92,44 @@ var lyr_RanhDn_4 = new ol.layer.Vector({
                 style: style_RanhDn_4,
                 popuplayertitle: 'Ranh Dự Án',
                 interactive: true,
-                title: '<img src="styles/legend/RanhDn_4.png" /> Ranh Dự Án'
-            });
-var format_GT_OSM_5 = new ol.format.GeoJSON();
-var features_GT_OSM_5 = format_GT_OSM_5.readFeatures(json_GT_OSM_5, 
+    title: 'Ranh Dự Án<br />\
+    <img src="styles/legend/RanhDn_4_0.png" /> 1/500<br />\
+    <img src="styles/legend/RanhDn_4_1.png" /> Điều chỉnh cục bộ<br />\
+    <img src="styles/legend/RanhDn_4_2.png" /> Nông thôn mới<br />\
+    <img src="styles/legend/RanhDn_4_3.png" /> Tổng mặt bằng<br />' });
+var format_GiaoThngOSM_5 = new ol.format.GeoJSON();
+var features_GiaoThngOSM_5 = format_GiaoThngOSM_5.readFeatures(json_GiaoThngOSM_5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:5897'});
-var jsonSource_GT_OSM_5 = new ol.source.Vector({
+var jsonSource_GiaoThngOSM_5 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_GT_OSM_5.addFeatures(features_GT_OSM_5);
-var lyr_GT_OSM_5 = new ol.layer.Vector({
+jsonSource_GiaoThngOSM_5.addFeatures(features_GiaoThngOSM_5);
+var lyr_GiaoThngOSM_5 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_GT_OSM_5, 
-                style: style_GT_OSM_5,
-                popuplayertitle: 'GT_OSM',
+                source:jsonSource_GiaoThngOSM_5, 
+                style: style_GiaoThngOSM_5,
+                popuplayertitle: 'Giao Thông OSM',
                 interactive: true,
-                title: '<img src="styles/legend/GT_OSM_5.png" /> GT_OSM'
+                title: '<img src="styles/legend/GiaoThngOSM_5.png" /> Giao Thông OSM'
             });
 
-lyr_GoogleSatellite_0.setVisible(true);lyr_ChcNng_1.setVisible(true);lyr_RanhThnhPhNgBy_2.setVisible(true);lyr_RanhHnhChnh_3.setVisible(true);lyr_RanhDn_4.setVisible(true);lyr_GT_OSM_5.setVisible(true);
-var layersList = [lyr_GoogleSatellite_0,lyr_ChcNng_1,lyr_RanhThnhPhNgBy_2,lyr_RanhHnhChnh_3,lyr_RanhDn_4,lyr_GT_OSM_5];
+lyr_GoogleSatellite_0.setVisible(true);lyr_ChcNng_1.setVisible(true);lyr_RanhThnhPhNgBy_2.setVisible(true);lyr_RanhPhngX_3.setVisible(true);lyr_RanhDn_4.setVisible(true);lyr_GiaoThngOSM_5.setVisible(true);
+var layersList = [lyr_GoogleSatellite_0,lyr_ChcNng_1,lyr_RanhThnhPhNgBy_2,lyr_RanhPhngX_3,lyr_RanhDn_4,lyr_GiaoThngOSM_5];
 lyr_ChcNng_1.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'SHAPE_Length': 'SHAPE_Length', 'SHAPE_Area': 'SHAPE_Area', 'MaSo': 'MaSo', 'ChucNang': 'ChucNang', 'TenCongTrinh': 'TenCongTrinh', 'GhiChu': 'GhiChu', 'Field': 'Field', });
 lyr_RanhThnhPhNgBy_2.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'Shape_Length': 'Shape_Length', 'Shape_Area': 'Shape_Area', });
-lyr_RanhHnhChnh_3.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'PhuongXa': 'PhuongXa', 'SHAPE_Length': 'SHAPE_Length', 'SHAPE_Area': 'SHAPE_Area', });
-lyr_RanhDn_4.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'Shape_Length': 'Shape_Length', 'Shape_Area': 'Shape_Area', 'TenDA': 'TenDA', 'TrangThai': 'TrangThai', 'GhiChu': 'GhiChu', 'QDPD': 'QDPD', 'LoaiQH': 'LoaiQH', 'DienTich': 'DienTich', });
-lyr_GT_OSM_5.set('fieldAliases', {'note_vi': 'note_vi', 'name': 'name', });
+lyr_RanhPhngX_3.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'PhuongXa': 'PhuongXa', 'SHAPE_Length': 'SHAPE_Length', 'SHAPE_Area': 'SHAPE_Area', });
+lyr_RanhDn_4.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'Shape_Length': 'Shape_Length', 'Shape_Area': 'Shape_Area', 'TenDA': 'TenDA', 'TrangThai': 'TrangThai', 'GhiChu': 'GhiChu', 'QDPD': 'QDPD', 'LoaiQH': 'LoaiQH', 'DienTich': 'DienTich', 'STT': 'STT', });
+lyr_GiaoThngOSM_5.set('fieldAliases', {'note_vi': 'note_vi', 'name': 'name', });
 lyr_ChcNng_1.set('fieldImages', {'OBJECTID': 'TextEdit', 'SHAPE_Length': 'TextEdit', 'SHAPE_Area': 'TextEdit', 'MaSo': 'TextEdit', 'ChucNang': 'TextEdit', 'TenCongTrinh': 'TextEdit', 'GhiChu': 'TextEdit', 'Field': 'Range', });
 lyr_RanhThnhPhNgBy_2.set('fieldImages', {'OBJECTID': 'TextEdit', 'Shape_Length': 'TextEdit', 'Shape_Area': 'TextEdit', });
-lyr_RanhHnhChnh_3.set('fieldImages', {'OBJECTID': 'TextEdit', 'PhuongXa': 'TextEdit', 'SHAPE_Length': 'TextEdit', 'SHAPE_Area': 'TextEdit', });
-lyr_RanhDn_4.set('fieldImages', {'OBJECTID': 'TextEdit', 'Shape_Length': 'TextEdit', 'Shape_Area': 'TextEdit', 'TenDA': 'TextEdit', 'TrangThai': 'TextEdit', 'GhiChu': 'TextEdit', 'QDPD': 'TextEdit', 'LoaiQH': 'TextEdit', 'DienTich': 'TextEdit', });
-lyr_GT_OSM_5.set('fieldImages', {'note_vi': 'TextEdit', 'name': 'TextEdit', });
+lyr_RanhPhngX_3.set('fieldImages', {'OBJECTID': 'TextEdit', 'PhuongXa': 'TextEdit', 'SHAPE_Length': 'TextEdit', 'SHAPE_Area': 'TextEdit', });
+lyr_RanhDn_4.set('fieldImages', {'OBJECTID': 'TextEdit', 'Shape_Length': 'TextEdit', 'Shape_Area': 'TextEdit', 'TenDA': 'TextEdit', 'TrangThai': 'TextEdit', 'GhiChu': 'TextEdit', 'QDPD': 'TextEdit', 'LoaiQH': 'TextEdit', 'DienTich': 'TextEdit', 'STT': 'TextEdit', });
+lyr_GiaoThngOSM_5.set('fieldImages', {'note_vi': 'TextEdit', 'name': 'TextEdit', });
 lyr_ChcNng_1.set('fieldLabels', {'OBJECTID': 'hidden field', 'SHAPE_Length': 'hidden field', 'SHAPE_Area': 'hidden field', 'MaSo': 'inline label - visible with data', 'ChucNang': 'inline label - always visible', 'TenCongTrinh': 'inline label - always visible', 'GhiChu': 'inline label - always visible', 'Field': 'no label', });
 lyr_RanhThnhPhNgBy_2.set('fieldLabels', {'OBJECTID': 'no label', 'Shape_Length': 'no label', 'Shape_Area': 'no label', });
-lyr_RanhHnhChnh_3.set('fieldLabels', {'OBJECTID': 'no label', 'PhuongXa': 'inline label - always visible', 'SHAPE_Length': 'no label', 'SHAPE_Area': 'no label', });
-lyr_RanhDn_4.set('fieldLabels', {'OBJECTID': 'hidden field', 'Shape_Length': 'hidden field', 'Shape_Area': 'hidden field', 'TenDA': 'inline label - always visible', 'TrangThai': 'inline label - always visible', 'GhiChu': 'inline label - always visible', 'QDPD': 'inline label - always visible', 'LoaiQH': 'inline label - always visible', 'DienTich': 'inline label - always visible', });
-lyr_GT_OSM_5.set('fieldLabels', {'note_vi': 'no label', 'name': 'inline label - always visible', });
-lyr_GT_OSM_5.on('precompose', function(evt) {
+lyr_RanhPhngX_3.set('fieldLabels', {'OBJECTID': 'hidden field', 'PhuongXa': 'inline label - always visible', 'SHAPE_Length': 'hidden field', 'SHAPE_Area': 'hidden field', });
+lyr_RanhDn_4.set('fieldLabels', {'OBJECTID': 'hidden field', 'Shape_Length': 'hidden field', 'Shape_Area': 'hidden field', 'TenDA': 'inline label - always visible', 'TrangThai': 'inline label - always visible', 'GhiChu': 'inline label - always visible', 'QDPD': 'inline label - always visible', 'LoaiQH': 'inline label - always visible', 'DienTich': 'inline label - always visible', 'STT': 'no label', });
+lyr_GiaoThngOSM_5.set('fieldLabels', {'note_vi': 'no label', 'name': 'inline label - always visible', });
+lyr_GiaoThngOSM_5.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
